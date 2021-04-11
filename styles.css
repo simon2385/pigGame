@@ -15,10 +15,13 @@ General
 }
 
 body {
-  background-image: linear-gradient(rgba(32, 27, 77, 0.6), rgba(32, 27, 77, 0.6)), url(img/backy.jpg);
+  background-image: linear-gradient(
+    rgba(32, 27, 77, 0.6),
+    rgba(32, 27, 77, 0.6)
+  );
   background-position: center;
   background-size: cover;
-  font-family: 'lato', sans-serif;
+  font-family: "lato", sans-serif;
   font-weight: 300;
   position: relative;
   height: 100vh;
@@ -68,8 +71,14 @@ body {
   margin-bottom: 130px;
 }
 
-.active {background-color: #f2f3f7;}
-.active .player-name {font-weight: 300; background-color: #98c5ff4b; border-radius: 20px;}
+.active {
+  background-color: #f2f3f7;
+}
+.active .player-name {
+  font-weight: 300;
+  background-color: #98c5ff4b;
+  border-radius: 20px;
+}
 
 .player-current-box {
   background-color: #4d92eb;
@@ -100,7 +109,7 @@ button {
   color: #555;
   background: none;
   border: none;
-  font-family: 'lato', sans-serif;
+  font-family: "lato", sans-serif;
   font-size: 20px;
   text-transform: uppercase;
   cursor: pointer;
@@ -108,10 +117,16 @@ button {
   transition: background-color 0.3s, color 0.3s;
 }
 
-button:hover { font-weight: 600; }
-button:hover i { margin-right: 20px; }
+button:hover {
+  font-weight: 600;
+}
+button:hover i {
+  margin-right: 20px;
+}
 
-button:focus { outline: none; }
+button:focus {
+  outline: none;
+}
 
 i {
   color: #4d92eb;
@@ -124,9 +139,15 @@ i {
   transition: margin 0.3s;
 }
 
-.btn-new { top: 45px; }
-.btn-roll {  top: 403px;}
-.btn-hold { top: 467px; }
+.btn-new {
+  top: 45px;
+}
+.btn-roll {
+  top: 403px;
+}
+.btn-hold {
+  top: 467px;
+}
 
 .dice {
   position: absolute;
@@ -134,9 +155,13 @@ i {
   top: 178px;
   transform: translateX(-50%);
   height: 100px;
-  box-shadow: 0px 10px 60px rbga(0, 0, 0, 0.20);
+  box-shadow: 0px 10px 60px rbga(0, 0, 0, 0.2);
 }
 
-.winner { background-color: rgb(173, 230, 211); }
-.winner .player-name { font-weight: 300; color: #4d92eb; }
-
+.winner {
+  background-color: rgb(173, 230, 211);
+}
+.winner .player-name {
+  font-weight: 300;
+  color: #4d92eb;
+}
